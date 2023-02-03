@@ -1,0 +1,22 @@
+header img {
+  height: 150vh;
+  width: fit-content;
+}
+
+.intro img {
+  height: 50vh;
+  position: absolute;
+  right: 200px;
+}
+
+.intro-text {
+  width: 30%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+.intro-appear {
+  opacity: 1;
+  transform: translateY(0px);
+  color: black;
+}

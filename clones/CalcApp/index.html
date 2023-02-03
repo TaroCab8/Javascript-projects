@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <!--main body-->
+    <main class="main">
+      <!--screen container-->
+      <div class="screen">
+        <h1 maxlength="8" id="show"></h1>
+      </div>
+      <!--end screen container-->
+      <!--Buttons-->
+      <div class="btn-container">
+        <button class="nBtn" id="1">1</button>
+        <button class="nBtn" id="2">2</button>
+        <button class="nBtn" id="3">3</button>
+        <button class="nBtn" id="4">4</button>
+        <button class="nBtn" id="5">5</button>
+        <button class="nBtn" id="6">6</button>
+        <button class="nBtn" id="7">7</button>
+        <button class="nBtn" id="8">8</button>
+        <button class="nBtn" id="9">9</button>
+        <button class="nBtn" id="0">0</button>
+        <button class="btn" id="brackets">()</button>
+        <button class="btn" data-action="add" id="add">+</button>
+        <button class="btn" data-action="subtract" id="minus">-</button>
+        <button class="btn" data-action="divide" id="divisor">/</button>
+        <button class="btn" data-action="multiply" id="mult">*</button>
+        <button class="btn" data-action="calculate" id="equal">=</button>
+        <button class="btn" data-action="save" id="memory">M</button>
+        <button class="btn" data-action="clear" id="eraser">C</button>
+        <!--end Buttons-->
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

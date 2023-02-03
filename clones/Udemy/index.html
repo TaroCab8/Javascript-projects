@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="./Assets/favicon-16x16.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/39ce889244.js" crossorigin="anonymous"></script>
+    <title>Online Courses - Learn Anything</title>
+</head>
+<body>
+   <!-- NAV-->
+   <nav class="navigation">
+       <div class="logo-container">
+           <img src="./Assets/logo-udemy.svg" alt="">
+       </div>
+       <div class="links">
+           <ul>
+               <li ><a class="cat-menu" href="#">Categories</a></li>
+               <li></li>
+               <li></li>
+               <li>
+                    <div id="input-search">
+                            <input type="search" placeholder="Search for anything">
+                            <button  type="submit"><i  class="fas fa-search"></i></button>
+                    </div>
+              
+            </li>
+               <li></li>
+               <li></li>
+              <li></li>
+              <li></li>
+              
+               <li class="udemy-bus"><a href="#">Udemy Business</a></li>
+               <li id="link-flex-end"><a href="#">Teach on Udemy</a></li>
+           </ul>
+           
+       </div>
+       <div class="nav-buttons">
+           <button class="cart"><i   class="fas fa-shopping-cart"></i></button>
+           <button id="nav-btn" class="nav-btn">Log   in</button>
+           <button id="login" class="nav-btn">Sign up</button>
+           <button id="language" class="nav-btn"><i class="fas fa-globe"></i></button>
+       </div>
+   </nav>
+    
+<!--SUBMENUES-->
+<section class="submenues">
+    <div id="categories-submenu">
+        <div class="cat-sub1">
+            <li><a href="#">Business <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Finance & Accounting <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">IT & Software <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Office Productivity <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Personal Development <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Design <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Marketing<i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Lifestyle <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Photography & Video <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Health & Fitness <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Music <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+            <li><a href="#">Teaching & Academics <i id="arrow-right" class="fa fa-chevron-right"></i></a></li>
+
+        </div>
+        <div class="cat-sub2">por ahora</div>
+        <div class="cat-sub3">porahora</div>
+    </div>
+    <div class="business-submenu">
+        <p>Get your team access to over 6,000 top Udemy courses, anytime, anywhere.</p>
+        <button class="business-btn">Try Udemy Business</button>
+    </div>
+    <div class="teach-submenu">
+        <p>Turn what you know into an opportunity and reach millions around the world.</p>
+        <button class="teach-btn">Learn More</button>
+    </div>
+    <div class="cart-submenu">
+        <h2>Your cart is empty.</h2>
+        <a href="#">Keep shopping</a>
+    </div>
+</section>
+
+<!--Carrousel-->
+<div class="carrousel">
+    <button class="chevron-left"><i class="fa fa-chevron-left"></i></button>
+    <button class="chevron-right"><i class="fa fa-chevron-right"></i></button>
+    <div class="plan-chico">
+            
+        <div class="chico-info">
+          
+            <h2>Free New Year’s Starter Pack</h2>
+            <p>Buy any course during our sale and get free mini-lessons on finances, career goals, yoga, and more. <a href="#">See details</a> .</p>
+           
+        </div>
+    </div>
+    <div class="plan-fille">
+     
+        <div class="fille-info">
+                <h2>Courses from €9.99</h2>
+                <p>Shop our New Year’s Sale by Jan. 6 to get our free Starter Pack. <a href="">Learn more</a>.</p>
+        </div>
+       
+    </div>
+</div>
+
+
+<!--SELECTION OF COURSES -->
+<section class="selection">
+    <div class="select-header-nav">
+        <h1>A Broad selection of courses</h1>
+        <h3>Choose from 183,000 online video courses with new additions published every month</h3>
+        <nav class="courses-nav">
+            <ul>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Excel</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">Data Science</a></li>
+                <li><a href="#">AWS Certification</a></li>
+                <li><a href="#">Drawing</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="courses-info-container">
+        <div class="courses-info-card">
+            <h1>Expand your career opportunities with Python</h1>
+            <p>Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You'll learn how to build everything from games to sites to apps. Choose from a range of courses that will...</p>
+            <button id="courses-info-btn">Explore Python</button>
+            <div class="courses-options-python">
+                    <button id="course-info">
+                            <img src="./Assets/567828_67d0.jpg" alt="">
+                            <h1>2022 Complete Python Bootcamp From Zero to Hero</h1>
+                            <h2>Jose Portilla</h2>
+                            <h3>4.6 
+                            <i id="star1" class="fa fa-star"></i>
+                            <i id="star1" class="fa fa-star"></i>
+                            <i id="star1" class="fa fa-star"></i>
+                            <i id="star1" class="fa fa-star"></i>
+                            <i id="star5" class="fa fa-star"></i>
+                            (3963,000)
+                            </h3>
+                            <h4>€9.99 </h4>
+                        </button>
+                        <button id="course-info">
+                                <img src="./Assets/950390_270f_3.jpg" alt="">
+                                <h1>Machine Learning A-Z™: Hands-On Pythong & R in Data Science</h1>
+                                <h2>Kirill Eremenenki</h2>
+                                <h3>4.5 
+                                <i id="star1" class="fa fa fa-star"></i>
+                                <i id="star1" class="fa fa fa-star"></i>
+                                <i id="star1" class="fa fa fa-star"></i>
+                                <i id="star1" class="fa fa fa-star"></i>
+                                <i id="star5" class="fa fa fa-star"></i>
+                                (154,288)
+                                </h3>
+                                <h4>€9.99 </h4>
+                            </button>
+                            <button id="course-info">
+                                    <img src="./Assets/903744_8eb2.jpg" alt="">
+                                    <h1>Python for Data Science and Machine Learning Bootcamp</h1>
+                                    <h2>Jose Portilla</h2>
+                                    <h3>4.7 
+                                    <i id="star1" class="fa fa-star"></i>
+                                    <i id="star1" class="fa fa-star"></i>
+                                    <i id="star1" class="fa fa-star"></i>
+                                    <i id="star1" class="fa fa-star"></i>
+                                    <i id="star5" class="fa fa-star"></i>
+                                    (108,771)
+                                    </h3>
+                                    <h4>€9.99 </h4>
+                                </button>
+                            <button id="course-info">
+                                        <img src="./Assets/2776760_f176_9.jpg" alt="">
+                                        <h1>100 Days of Code: The Complete Python Pro Bootcamp for 2022</h1>
+                                        <h2>Dr. Angela Yu</h2>
+                                        <h3>4.7 
+                                        <i id="star1" class="fa fa-star"></i>
+                                        <i id="star1" class="fa fa-star"></i>
+                                        <i id="star1" class="fa fa-star"></i>
+                                        <i id="star1" class="fa fa-star"></i>
+                                        <i id="star5" class="fa fa-star"></i>
+                                        (75,201)
+                                        </h3>
+                                        <h4>€9.99 </h4>
+                                 </button>
+                            <button id="course-info">
+                                            <img src="./Assets/629302_8a2d_2.jpg" alt="">
+                                            <h1>Learn Python Programming Masterclass</h1>
+                                            <h2>Tim Buchaika, Jean-Paul Roberts</h2>
+                                            <h3>4.6 
+                                            <i id="star1" class="fa fa-star"></i>
+                                            <i id="star1" class="fa fa-star"></i>
+                                            <i id="star1" class="fa fa-star"></i>
+                                            <i id="star1" class="fa fa-star"></i>
+                                            <i id="star5" class="fa fa-star"></i>
+                                            (85,021)
+                                            </h3>
+                                            <h4>€10.99 </h4>
+                                        </button>
+                                        
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+<!--TOP categories-->
+
+<div class="top">
+    <h1>Top Categories</h1>
+    <div class="des">
+        <div id="cuadrado">
+                <img src="./Assets/lohp-category-design-v2.jpg" alt="">
+                <h4>Design</h4>
+        </div>
+    </div>
+    <div class="dev">
+        <div id="cuadrado">
+            <img src="./Assets/lohp-category-development-v2.jpg" alt="">
+            <h4>Development</h4>
+        </div>
+</div>
+    <div class="mkt"><div id="cuadrado">
+            <img src="./Assets/lohp-category-marketing-v2.jpg" alt="">
+            <h4>Marketing</h4>
+    </div>
+</div>
+    <div class="it">
+        <div id="cuadrado">
+            <img src="./Assets/lohp-category-it-and-software-v2.jpg" alt="">
+            <h4>It and Software</h4>
+    </div>
+</div>
+    <div class="pers-dev">
+        <div id="cuadrado">
+            <img src="./Assets/lohp-category-personal-development-v2.jpg" alt="">
+            <h4>Personal Development</h4>
+    </div>
+</div>
+    <div class="bsn"><div id="cuadrado">
+            <img src="./Assets/lohp-category-business-v2.jpg" alt="">
+            <h4>Business</h4>
+    </div>
+</div>
+    <div class="ph">
+        <div id="cuadrado">
+            <img src="./Assets/lohp-category-photography-v2.jpg" alt="">
+            <h4>Photography</h4>
+    </div>
+</div>
+    <div class="msic">
+        <div id="cuadrado">
+            <img src="./Assets/lohp-category-music-v2.jpg" alt="">
+            <h4>Music</h4>
+    </div>
+</div>
+</div>
+
+<!--Flyers-->
+
+<section class="flyers">
+    <div class="instructors">
+        <img src="./Assets/instructor-1x-v3.jpg" alt="">
+        <div class="instructor-text">
+            <h1>Become an instructor</h1>
+            <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+            <button>Start teaching today</button>
+        </div>
+    </div>
+    <div class="udemy-business">
+        
+        <div class="ud-business-text">
+            <img  id="ub-logo" src="./Assets/logo-ub.svg" alt="">
+            <p>Get unlimited access to 6,000+ of Udemy’s top courses for your team. Learn and improve skills across business, tech, design, and more.</p>
+            <button>Get Udemy Business</button>
+            
+        </div>
+        <div class="img-container-special"><img src="./Assets/ub-1x-v3.jpg" alt=""></div>
+    </div>
+    <div class="life-transform">
+        <img src="./Assets/transform-1x-v3.jpg" alt="">
+        <div class="life-transform-text">
+            <h1>Transform your life through education</h1>
+            <p>Learners around the world are launching new careers, advancing in their fields, and enriching their lives</p>
+            <button>Find out more</button>
+        </div>
+    </div>
+    <div class="partners">
+        <h1>Trusted by companies of all sizes</h1>
+        <div class="images-container">
+            <img src="./Assets/nasdaq-dark.svg" alt="">
+        <img src="./Assets/netflix-dark.svg" alt="">
+        <img src="./Assets/volkswagen-dark.svg" alt="">
+        <img src="./Assets/box-dark.svg" alt="">
+        <img src="./Assets/eventbrite-dark.svg" alt="">
+        </div>
+        
+    </div>
+</section>
+
+
+<!--Footer-->
+<footer>
+    <div class="upper">
+        <div class="link-container">
+            <ul>
+                <li><a href="#">Udemy Business</a></li>
+                <li><a href="#">Teach on Udemy</a></li>
+                <li><a href="#">Get the app</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+               
+            </ul>
+            <ul>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Help and Support</a></li>
+                <li><a href="#">Affiliate</a></li>
+                <li><a href="#">Investors</a></li>
+               
+            </ul>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Cookie settings</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Accessibility statement</a></li>
+               
+            </ul>
+           
+        </div>
+        <button><i class="fas fa-globe"></i> English</button>
+    </div>
+
+<div class="lower">
+    <img class="footer-logo" src="./Assets/logo-udemy-inverted.svg" alt="">
+    <h3>© 2022 Udemy, Inc. </h3>
+    
+</div>
+</footer>
+<div class="MENU"></div>
+<!--MOBILE-->
+<div class="burguer-container">
+        <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="28" height="28" fill="white" fill-opacity="0.01"/>
+            <path d="M7.94977 11.9498H39.9498" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.94977 23.9498H39.9498" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.94977 35.9498H39.9498" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+</div>
+<div class="cross-icon-container">
+        <svg  style="color: black" xmlns='http://www.w3.org/2000/svg' width='42' height='40' viewBox='0 0 53.7 53.7'><path opacity='1' fill='black"' d='M35.6 34.4L28 26.8l7.6-7.6c.2-.2.2-.5 0-.7l-.5-.5c-.2-.2-.5-.2-.7 0l-7.6 7.6-7.5-7.6c-.2-.2-.5-.2-.7 0l-.6.6c-.2.2-.2.5 0 .7l7.6 7.6-7.6 7.5c-.2.2-.2.5 0 .7l.5.5c.2.2.5.2.7 0l7.6-7.6 7.6 7.6c.2.2.5.2.7 0l.5-.5c.2-.2.2-.5 0-.7z'/></svg>
+    </div>
+<div class="mobile-container">
+    <div class="login">
+        <a href="#">Log in</a>
+        <a href="#">Sign up</a>
+    </div>
+    <div class="most-popular">
+        <h1>Most Popular</h1>
+        <ul>
+            <li><a href="#"></a>Web Development <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Mobile Development <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Game Development <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Entrepreneurship <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Business Analytic & Intelligence <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Digital Marketing <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Graphic Design & Illustration <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>IT Certifications <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>Personal Transformation <i class="fa fa-chevron-right"></i></li>
+            <li><a href="#"></a>All categories <i class="fa fa-chevron-right"></i></li>
+        </ul>
+    </div>
+    <div class="more">
+        <h1>More from Udemy</h1>
+        <ul>
+            <li><a href="#">Udemy Business</a></li>
+            <li><a href="#">Get the app</a></li>
+            <li><a href="#">invite friends</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <button><i class="fas fa-globe"></i> English</button>
+    </div>
+   
+    <div class="sub-menu">
+        <div class="back-menu-container">
+            <a id="back-submenu-arrow" href="#"><i class="fa fa-chevron-left"></i> Menu</a>
+        </div>
+        <div class="submenu-list">
+            <ul>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Angular</a></li>
+                <li><a href="#">Node.Js</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">Django</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

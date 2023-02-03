@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+  background: lightblue;
+}
+
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  color: whitesmoke;
+  font-size: 20px;
+}
+
+.par {
+  color: black;
+  font-size: 40px;
+}

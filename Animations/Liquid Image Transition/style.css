@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.distortion {
+  height: 480px;
+  width: 320px;
+  align-self: flex-end;
+}
+
+.intro {
+  align-self: center;
+}
+
+.intro h2 {
+  font-size: 50px;
+}
+.intro p {
+  font-size: 26px;
+}

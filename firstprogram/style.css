@@ -1,0 +1,46 @@
+.header h1{
+    color: rgb(43, 43, 49);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(112, 122, 150);
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main {
+padding: 10px;
+border-bottom-color: black;
+border-bottom-width: 10px;
+background-color:rgb(130, 127, 146);
+margin: 10px;
+border: 3px solid black;
+}
+
+.Picture {
+    text-align: left;
+    margin: 10px;
+    font-size: 15px;
+}
+
+button {
+    margin:10px;
+    padding:10px;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    color: white;
+}
+nav li{
+    float
+    margin: 0rem 0rem;
+}

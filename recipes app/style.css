@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0%;
+  background: linear-gradient(to right, #48a750, #99f586);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+.mobile-container {
+  background-color: rgba(255, 255, 255, 0.776);
+  width: 400px;
+  box-shadow: 0 0 10px 2px #3333331a;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+header input {
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+header button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.fav-container {
+  background-color: #ccda545d;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.fav-meals {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.fav-meals li {
+  position: relative;
+  margin: 5px;
+  width: 80px;
+}
+
+.fav-meals li .clear {
+  background-color: transparent;
+  border: none;
+  opacity: 0;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.fav-meals li:hover .clear {
+  opacity: 1;
+}
+
+.fav-meals li img {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #3333331a;
+  object-fit: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.fav-meals li span {
+  display: inline-block;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 75px;
+}
+
+.meal {
+  margin: 10px;
+  box-shadow: 0 0 10px 2px #3333331a;
+  border-radius: 3px;
+  margin: 1.5rem;
+  overflow: hidden;
+}
+
+.meal-header {
+  position: relative;
+}
+
+.meal-header .random {
+  position: absolute;
+  top: 10px;
+  background-color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.meal-header img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.meal-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.meal-body h4 {
+  margin: 0;
+}
+
+.meal-body .fav-btn {
+  border: none;
+  background-color: transparent;
+  color: rgb(148, 141, 141);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.meal-body .fav-btn.active {
+  color: rgb(231, 1, 1);
+}

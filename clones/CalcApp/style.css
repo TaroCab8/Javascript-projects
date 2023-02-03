@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background: linear-gradient(45deg, rgb(0, 0, 0), rgba(53, 51, 51, 0.81));
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border: black 5px solid;
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  max-width: 1024px;
+  box-shadow: 10px 20px 20px black;
+  position: absolute;
+  left: 10%;
+}
+.screen {
+  width: 360px;
+  height: 80px;
+  margin: 10px;
+  margin-top: 20px;
+  border: white 3px solid;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+h1 {
+  position: relative;
+  top: 20px;
+  right: 10px;
+  font-size: 48px;
+  color: black;
+  text-align: right;
+  font-family: sans-serif;
+  font-style: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn-container {
+  background: linear-gradient(-45deg, rgb(0, 0, 0), rgba(53, 51, 51, 0.81));
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-top: 3px whitesmoke;
+  margin: 30px;
+  padding: 10px;
+}
+
+.nBtn,
+.btn {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#eraser {
+  color: red;
+}
+
+#memory {
+  color: blue;
+}
+
+#equal {
+  background-color: green;
+}
+
+#add,
+#brackets,
+#minus,
+#mult,
+#divisor {
+  color: green;
+}
